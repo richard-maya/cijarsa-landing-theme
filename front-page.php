@@ -162,9 +162,9 @@
 
 <!-- FOOTER
 ================================================== -->
-<footer class="py-5">
+<footer class="pt-5 pb-4">
     <div class="container">
-        <div class="row justify-content-center d-flex align-items-center">
+        <div class="row justify-content-center d-flex align-items-center mb-3">
             <div class="col-12 col-md-4">
                 <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/cijarsa-logo.png" alt="cijarsa-logo" height="65px">
             </div>
@@ -183,6 +183,9 @@
                 <a href="tel:<?php the_field('telefono'); ?>"><p class="blue-text mb-2"><?php the_field('telefono'); ?></p></a>
                 <a href="mailto:<?php the_field('correo'); ?>"><p class="blue-text"><?php the_field('correo'); ?></p></a>
             </div>
+        </div>
+        <div class="row justify-content-center">
+            <p class="mb-0 py-2"><small><a href="https://iconica.mx" title="diseño-de-páginas-web" target="_blank" rel="author" class="blue-text">Sitio web desarrollado por Iconica Studio</a>. <a href="https://iconica.mx" title="diseño-de-páginas-web" target="_blank" rel="author" class="d-none">diseño de páginas web</a></small></p>
         </div>
     </div>
 </footer>

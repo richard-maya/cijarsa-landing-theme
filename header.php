@@ -12,15 +12,22 @@
 
     <!-- FAVICONS
     ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="https://casasenventatoluca.com/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://casasenventatoluca.com/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://casasenventatoluca.com/favicons/favicon-16x16.png">
+    <link rel="manifest" href="https://casasenventatoluca.com/favicons/site.webmanifest">
+    <link rel="mask-icon" href="https://casasenventatoluca.com/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="https://casasenventatoluca.com/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="https://casasenventatoluca.com/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
     
-
     <!-- GOOGLE TAG MANAGER
     ================================================== -->
-
     
     <!-- SITE TITLE
     ================================================== -->
-    <title><?php wp_title(''); ?></title>
+    <title>Casas en Venta Toluca | CIJARSA | <?php wp_title(''); ?></title>
 
     <!-- SEO INFO
     ================================================== -->
